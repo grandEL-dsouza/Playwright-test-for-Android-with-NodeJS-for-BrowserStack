@@ -1,0 +1,88 @@
+2024-07-08 00:53:29 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 00:53:29 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 00:54:06 - [32minfo[39m: Visit https://observability.browserstack.com/builds/muwosbli5dxkgelj2kbdomcm8erhg5k5wmjtwylq to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 00:54:06 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 00:54:08 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-08 00:57:35 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 00:57:35 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 00:57:38 - [32minfo[39m: Visit https://observability.browserstack.com/builds/xckzi1hk9cvaphdhafccximjpmzjhknewpwrni1r to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 00:57:39 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 00:57:40 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-08 01:01:09 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 01:01:09 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 01:01:41 - [32minfo[39m: Visit https://observability.browserstack.com/builds/v6casi1zhr7z5wmnlp9ioxrrubkmkwwvpijovn2q to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 01:01:41 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 01:01:42 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-08 23:49:52 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 23:49:52 - [31merror[39m: duplicated mapping key (8:5)
+
+ 5 |     browserVersion: latest
+ 6 |     os: OS X
+ 7 |     osVersion: Ventura
+ 8 |     browserVersion: latest
+---------^
+2024-07-08 23:49:52 - [31merror[39m: Error: duplicated mapping key (8:5)
+
+ 5 |     browserVersion: latest
+ 6 |     os: OS X
+ 7 |     osVersion: Ventura
+ 8 |     browserVersion: latest
+---------^
+    at new BrowserStackSetup (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:6548)
+    at run (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:15983)
+    at Object.xekAc (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1103)
+    at captureError (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1197)
+    at Object.SSDQk (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8311)
+    at /Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8537
+    at _.applyBuilderUpdateUsageAndParse (/Users/grandelrobert/node_modules/browserstack-node-sdk/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/grandelrobert/node_modules/browserstack-node-sdk/node_modules/yargs/build/index.cjs:1:7078)
+    at te.[runYargsParserAndExecuteCommands] (/Users/grandelrobert/node_modules/browserstack-node-sdk/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/grandelrobert/node_modules/browserstack-node-sdk/node_modules/yargs/build/index.cjs:1:40478)
+2024-07-08 23:50:17 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 23:50:17 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 23:50:18 - [31merror[39m: Error: @playwright/test/lib/common/configLoader.js doesn't exist.
+    at exports.<computed> (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/helpers/helper.js:1:50842)
+    at getUserPlaywrightConfig (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:7104)
+    at Object.yDcos (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:13811)
+    at run (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:17196)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async captureError (/Users/grandelrobert/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1165)
+2024-07-08 23:51:45 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 23:51:45 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 23:51:50 - [32minfo[39m: Visit https://observability.browserstack.com/builds/pykopp9sdirf799kqhfbgzxeqqmexqizgr97xkea to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 23:51:50 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 23:51:51 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-08 23:52:08 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 23:52:08 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 23:52:37 - [32minfo[39m: Visit https://observability.browserstack.com/builds/e7u89o27xw8cpa0ufm1n9flux952x24r7psoxi2w to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 23:52:37 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 23:52:39 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-08 23:54:06 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 23:54:06 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 23:54:37 - [32minfo[39m: Visit https://observability.browserstack.com/builds/fs64g9mi2oq85l8qpe4jfu4isl2zcebtlvcj3jv3 to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 23:54:37 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 23:54:39 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-08 23:55:44 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-08 23:55:44 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-08 23:56:13 - [32minfo[39m: Visit https://observability.browserstack.com/builds/2bqt4mrgc4hzmpxabek0muzvszfukynfdjhipvxw to view build report, insights, and many more debugging information all at one place!
+
+2024-07-08 23:56:14 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-08 23:56:15 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-09 00:08:04 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-09 00:08:04 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-09 00:09:41 - [32minfo[39m: Visit https://observability.browserstack.com/builds/nmpjuwlht0x6exfmvjv0gh9zh3hmciydpexzrm6y to view build report, insights, and many more debugging information all at one place!
+
+2024-07-09 00:09:42 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-09 00:09:44 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
+2024-07-09 00:10:23 - [32minfo[39m: Reading configs from /Users/grandelrobert/Desktop/node-js-playwright-browserstack/browserstack.yml
+2024-07-09 00:10:23 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-09 00:12:11 - [32minfo[39m: Visit https://observability.browserstack.com/builds/lwcjnonxh03dxqpdmsbzpdktvdumhchveduk6awb to view build report, insights, and many more debugging information all at one place!
+
+2024-07-09 00:12:12 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-07-09 00:12:13 - [32minfo[39m: Deleting /Users/grandelrobert/Desktop/node-js-playwright-browserstack/playwright-browserstack-sdk.config.js
