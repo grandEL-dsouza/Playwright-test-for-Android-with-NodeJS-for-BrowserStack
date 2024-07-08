@@ -1,0 +1,6 @@
+userName: YOUR-BROWSERSTACK-USER-NAME
+accessKey: YOUR-BROWSERSTACK-ACCESS-KEY
+platforms:
+  - deviceName: Samsung Galaxy S23 Ultra
+    browserName: chrome
+    osVersion: 13.0
